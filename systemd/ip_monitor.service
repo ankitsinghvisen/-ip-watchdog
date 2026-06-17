@@ -1,0 +1,16 @@
+[Unit]
+Description=Public IP Monitor Service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /usr/local/bin/ip_monitor.sh
+Restart=always
+RestartSec=10
+User=root
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=ip-monitor
+
+[Install]
+WantedBy=multi-user.target
