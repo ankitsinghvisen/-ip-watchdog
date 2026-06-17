@@ -111,9 +111,7 @@ IP_SOURCES=(
 <li>Systemd</li>
 <li>Sendmail</li>
 </ul>
-
 <hr>
-
 <h2>📌 Notes</h2>
 
 <ul>
