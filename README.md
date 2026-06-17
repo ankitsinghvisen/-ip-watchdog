@@ -1,4 +1,4 @@
-<h1 align="center" id="title">ip-watchdog </h1>
+<h1 align="left" id="title">ip-watchdog </h1>
 
 <p id="description">
 <strong>ip-watchdog</strong> continuously monitors your machine's <strong>public IP address</strong> and sends an <strong>email alert</strong> whenever it changes.
